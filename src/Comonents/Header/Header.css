@@ -1,0 +1,47 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px 10px;
+    width: 100%;
+    margin: auto;
+    flex-grow: 1;
+
+
+}
+
+nav a{
+    display: inline-block;
+    margin-right: 5rem;
+    font-size: 15px;
+    font-weight: 600;
+}
+nav{
+    padding: 10px;
+
+}
+
+.logo{
+    display: block;
+    margin-left: 50%;
+    width: 70%;
+
+}
+
+.btn-logout{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    border: none;
+    font-size: 15px;
+    background-color: crimson;
+    color: bisque;
+    text-align: center;
+    transition: all 0.2s ease;
+
+
+}
+
+.btn-logout:hover{
+    scale: 0.9;
+}

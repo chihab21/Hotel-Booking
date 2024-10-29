@@ -1,0 +1,71 @@
+.container {
+    margin: auto;
+    width: 80%;
+    max-width: 700px;
+    height: 80vh;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-top: 30px;
+ }
+ 
+ .header-title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 20px;
+ }
+ 
+ .input-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+ }
+ 
+ .input-form input {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    transition: border-color 0.3s ease;
+ }
+ 
+ .input-form input:focus {
+    border-color: #333;
+    outline: none;
+ }
+ 
+ .btn  {
+    width: 100%;
+    margin-top: 25px;
+    padding: 10px;
+    background-color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+ }
+ 
+ .btn:hover {
+    background-color: brown;
+    transform: scale(1.02);
+ }
+ input[type="email"]:invalid {
+   border: 2px solid red; /* Thicker border for more visibility */
+   background-color: #ffe6e6; /* Light red background */
+ }
+ 
+ input[type="email"]:valid {
+   border: 10px solid rgb(9, 224, 98)(81, 255, 0); /* Thicker border for more visibility */
+   background-color: #0af789; /* Light red background */
+
+ }
+ 
